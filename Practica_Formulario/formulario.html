@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> REGISTRO</title>
+</head>
+<body>
+   <legend><h1>FORMULARIO DE ALTA *</h1></legend>
+ <fieldset>
+    <legend><h4>NOMBRES Y APELLIDOS </h4></legend> 
+    <table>
+        <tr>
+            <th> 
+                <label for="nombre">NOMBRES</label><br/>
+                <input type="text" placeholder="Debe ingresar su nombre sin numeros" id="nombre" name="nombre"/>
+                </th>
+                <th> <label for="nombre"> PRIMER APELLIDOS</label><br/>
+                    <input type="text" placeholder="Ingresar solo el primer apellido" id="nombre" name="nombre"/>
+                    </th>
+                    <th>
+                        <label for="nombre"> SEGUNDO APELLIDOS</label><br/>
+                        <input type="text"  placeholder="Ingrese solo el segundo apellido" name="nombre"/>  
+                    </th>
+                    <th>
+                        <label for="id">ID</label> <br> <input type="text"  placeholder="Ingresar solo numeros" name="id"/>
+                        
+                    </th>
+        </tr>
+    </table>
+    <br/>
+    <legend><h1>Direccion*</h1></legend> 
+    <label for="Calle"> Calle,Numero</label> <input type="text" id="calle" name="calle" placeholder="ingrese Direccion"/>
+    <label for="codigo">Codigo Postal</label> <input type="text" id="codigo" name="codigo" placeholder="ingresar codigo pastal"/></th>
+    <label for="municipio">Municipio</label> <input type="text" id="municipio" name="municipio" placeholder="Ingrese Municipio"/></th>
+    <label for="Provincia">Provincia</label> 
+    <select name="Provincia" id=""> 
+        <option value="Seleccione">Seleccione Provincia</option>
+        <option value="prov1">Pichincha</option>
+        <option value="prov2">Los Rios</option>
+        <option value="prov3">Manabi</option>
+        <option value="prov4">Santa Elena</option>
+    </select>
+    <label for="Pais">Pais</label> 
+    <select name="Pais" id=""> 
+        <option value="Seleccione"> Seleccione Pais</option>
+        <option value="pais1">Ecuadro</option>
+        <option value="pais2">Colombia</option>
+        <option value="pais3">Peru</option>
+        <option value="pais4">Chile</option>
+    </select>
+    
+    <br>
+    <Label><h1> Email*</h1></Label> <input type="textemail" placeholder="ingrese su correo personal">
+    <br>
+    <label for=""> <h1>Telefono*</h1></label>
+    <label for=" telefon">Fijo </label> <input type="texttelefono" placeholder="ingres numero de telefono">
+    <label for="celular">Movil</label> <input type="textcelular" placeholder="Ingrese numero celular"> 
+     
+ </fieldset>
+ <input type="submit" value="Guardar Datos">
+    </form>
+</body>
+</html>
